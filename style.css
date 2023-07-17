@@ -91,6 +91,8 @@
   background-color: gray;
   width: 500px;
   height: auto;
+  box-shadow: 1px 1px 5px 5px gray;
+  border-radius: 5px;
 }
 .hero-text {
   display: flex;
