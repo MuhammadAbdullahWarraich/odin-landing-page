@@ -89,8 +89,8 @@
   align-items: center;
   color: white;
   background-color: gray;
-  min-height: 150px;
-  min-width: 300px;
+  width: 300px;
+  height: auto;
 }
 .hero-text {
   display: flex;
