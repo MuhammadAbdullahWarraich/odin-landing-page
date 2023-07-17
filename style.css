@@ -155,3 +155,8 @@
 .quote {
   padding: 150px 375px;
 }
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
