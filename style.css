@@ -13,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 16px;
 }
 .header > .logo{
   color: #F9FAF8;
@@ -30,12 +31,11 @@
   display: flex;
   gap: 16px;
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 1000px) {
   .hero-container {
     min-height: 700px;
   }
-}
-@media only screen and (max-width: 650px) {
   .header, .header ul {
     flex-direction: column;
   }
@@ -90,6 +90,7 @@
   color: white;
   background-color: gray;
   min-height: 150px;
+  min-width: 300px;
 }
 .hero-text {
   display: flex;
