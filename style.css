@@ -32,3 +32,8 @@
 .hero-banner {
   background-color: #1F2937;
 }
+.hero-banner > .main-text { 
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
