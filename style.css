@@ -1,3 +1,7 @@
 .header, .hero-banner, .footer {
   background-color: #1F2937;
 }
+.header > .logo{
+  color: #F9FAF8;
+  font-size: 24px;
+}
