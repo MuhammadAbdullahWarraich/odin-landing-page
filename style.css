@@ -21,7 +21,7 @@
 }
 .header a {
   border-radius: 8px;
-  padding: 4px 2px;
+  padding: 4px 8px;
   font-size: 18px;
   color: #F9FAF8;
   text-decoration: none;
@@ -35,7 +35,7 @@
   margin: 0px;
   padding: 0px;
   display: flex;
-  gap: 16px;
+  gap: 8px;
 }
 @media only screen and (max-width: 1200px) {
   .hero-container {
