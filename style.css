@@ -192,3 +192,32 @@
   background-color: #E5E7EB;
   color: #3882F6;
 }
+.media-object .image {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+.media-object {
+  max-width: 250px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+
+}
+.media-objects {
+  display: flex;
+  justify-content: center;
+}
+.media-object .desc {
+  text-align: center;
+}
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  width: max-content;
+  margin: 50px auto;
+  color: #1F2937;
+}
