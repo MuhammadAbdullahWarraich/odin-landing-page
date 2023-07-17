@@ -31,6 +31,8 @@
 }
 .hero-banner {
   background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
 }
 .hero-banner .main-text { 
   font-size: 48px;
