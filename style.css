@@ -31,11 +31,12 @@
   display: flex;
   gap: 16px;
 }
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .hero-container {
-    min-height: 700px;
+    min-height: 850px;
   }
+}
+@media only screen and (max-width: 1000px) {
   .header, .header ul {
     flex-direction: column;
   }
@@ -50,6 +51,7 @@
   }
   .call-to-action {
     padding: 50px 100px;
+    flex-direction: column;
   }
 }
 .hero-container {
@@ -78,7 +80,7 @@
 .signup {
   background-color: #3882F6;
   color: #F9FAF8;
-  padding: 6px 32px;
+  padding: 8px 32px;
   border-radius: 8px;
   font-weight: bold;
   box-sizing: content-box;
@@ -165,16 +167,28 @@
 }
 .call-to-action {
   flex: 1;
-  padding: 100px 300px;
+  margin: 100px 300px;
   background-color: #3882F6; 
   display: flex;
+  padding: 42px 100px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
 }
 .call-to-action .main-text {
   color: #F9FAF8;
+  font-size: 22px;
+  font-weight: bold;
 }
 .call-to-action .secondary-text {
   color: #E5E7EB;
 }
 .call-to-action .signup {
   border: 2px solid #E5E7EB;
+  margin-left: auto;
+  padding: 4px 32px;
+}
+.signup:hover {
+  background-color: #E5E7EB;
+  color: #3882F6;
 }
