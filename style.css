@@ -165,5 +165,16 @@
 }
 .call-to-action {
   flex: 1;
-  padding: 100px 300px; 
+  padding: 100px 300px;
+  background-color: #3882F6; 
+  display: flex;
+}
+.call-to-action .main-text {
+  color: #F9FAF8;
+}
+.call-to-action .secondary-text {
+  color: #E5E7EB;
+}
+.call-to-action .signup {
+  border: 2px solid #E5E7EB;
 }
