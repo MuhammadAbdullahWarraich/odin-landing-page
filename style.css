@@ -57,7 +57,7 @@
   background-color: #1F2937;
   display: flex;
   justify-content: space-between;
-  gap: 10%;
+  gap: 12%;
   flex-wrap: wrap-reverse;
 }
 .hero-banner .main-text { 
