@@ -30,10 +30,20 @@
   display: flex;
   gap: 16px;
 }
-@media only screen and (max-width: 600px)
-{
-  .header ul {
+@media only screen and (max-width: 900px) {
+  .hero-container {
+    min-height: 700px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .header, .header ul {
     flex-direction: column;
+  }
+  .header {
+    gap: 50px;
+  }
+  .header, .hero-container, .body-container, .footer {
+    padding: 16px 100px;
   }
 }
 .hero-container {
@@ -79,6 +89,7 @@
   align-items: center;
   color: white;
   background-color: gray;
+  min-height: 150px;
 }
 .hero-text {
   display: flex;
