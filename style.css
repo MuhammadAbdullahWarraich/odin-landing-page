@@ -29,3 +29,6 @@
   display: flex;
   gap: 16px;
 }
+.hero-banner {
+  background-color: #1F2937;
+}
