@@ -5,13 +5,14 @@
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header, .hero-container, .body-container, .footer {
-  padding: 16px 16%;
+  padding: 16px 300px;
 }
 .header {
   background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .header > .logo{
   color: #F9FAF8;
@@ -29,10 +30,16 @@
   display: flex;
   gap: 16px;
 }
+@media only screen and (max-width: 600px)
+{
+  .header ul {
+    flex-direction: column;
+  }
+}
 .hero-container {
   background-color: #1F2937;
   display: flex;
-  height: 50vh;
+  height: 500px;
   align-items: center;
 }
 .hero-banner {
@@ -41,6 +48,7 @@
   display: flex;
   justify-content: space-between;
   gap: 10%;
+  flex-wrap: wrap-reverse;
 }
 .hero-banner .main-text { 
   font-size: 48px;
