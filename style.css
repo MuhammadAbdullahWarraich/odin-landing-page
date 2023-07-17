@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 16px;
 }
 .header > .logo{
   color: #F9FAF8;
