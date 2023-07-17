@@ -69,3 +69,8 @@
   color: white;
   background-color: gray;
 }
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
