@@ -48,6 +48,9 @@
   .quote {
     padding: 50px 125px;
   }
+  .call-to-action {
+    padding: 50px 100px;
+  }
 }
 .hero-container {
   background-color: #1F2937;
@@ -159,4 +162,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.call-to-action {
+  flex: 1;
+  padding: 100px 300px; 
 }
