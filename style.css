@@ -41,3 +41,10 @@
   font-size: 18px;
   color: #E5E7EB;
 }
+.signup {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 6px 32px;
+  border-radius: 8px;
+  font-weight: bold;
+}
