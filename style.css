@@ -19,6 +19,12 @@
   color: #F9FAF8;
   font-size: 24px;
 }
+.header > .logo a {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
 .header ul a {
   border-radius: 8px;
   padding: 4px 8px;
