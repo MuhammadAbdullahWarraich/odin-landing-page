@@ -19,14 +19,14 @@
   color: #F9FAF8;
   font-size: 24px;
 }
-.header a {
+.header ul a {
   border-radius: 8px;
   padding: 4px 8px;
   font-size: 18px;
   color: #F9FAF8;
   text-decoration: none;
 }
-.header a:hover {
+.header ul a:hover {
   background-color: #F9FAF8;
   color: #1F2937;
 }
