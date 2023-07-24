@@ -46,7 +46,7 @@ body {
   flex: 1;
   display: flex;
   align-items: center;
-  background-image: url("./images/background-3.jpg");
+  background-image: url("./images/background-1.jpg");
   background-size: cover;
 }
 .signup-form {
