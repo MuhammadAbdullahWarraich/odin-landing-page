@@ -106,3 +106,9 @@ input.invalid + p {
   justify-content: center;
   align-items: center;
 }
+.form-heading {
+  font-size: 48px;
+  font-weight: bolder;
+  color: gray;
+  text-shadow: 1px 1px black;
+}
