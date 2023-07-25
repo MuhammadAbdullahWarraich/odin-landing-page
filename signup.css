@@ -55,7 +55,7 @@ body {
   background-image: url("./images/background-1.jpg");
   background-size: cover;
 }
-.signup-form {
+.form {
   padding: 10px;
   background-color: #F9FAF8;
   border-radius: 16px;
