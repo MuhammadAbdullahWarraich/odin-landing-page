@@ -112,7 +112,7 @@ input.invalid + p {
   color: gray;
   text-shadow: 1px 1px black;
 }
-.form-button {
+#form-button {
   color: #F9FAF8;
   background-color: #3882F6;
   border-radius: 8px;
@@ -124,7 +124,7 @@ input.invalid + p {
   display: flex;
   justify-content: space-between;
 }
-.form-button + p {
+#form-button + p {
   color: green;
   opacity: 0;
   margin: 0 10px;
