@@ -112,7 +112,7 @@ input.invalid + p {
   color: gray;
   text-shadow: 1px 1px black;
 }
-.signup-button {
+.form-button {
   color: #F9FAF8;
   background-color: #3882F6;
   border-radius: 8px;
