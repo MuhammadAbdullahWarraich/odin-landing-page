@@ -32,19 +32,17 @@ inputs.forEach((input) => {
 });
 
 const formButton = document.getElementById('form-button');
-let success = true;
+
 
 formButton.addEventListener('click', (e) => {
+  let success = true;
 
   inputs.forEach((input) => {
     
-    if ((regex[input.attributes.name.value].test(input.value))) {
-      success = true;//this condition was needed for setting success to true if it had been set to false after the last click
-    }
-    else  {
+    if (!(regex[input.attributes.name.value].test(input.value))) {
       success = false;
     }
-
+    
   });
 
   formButton.className=success?"valid":"invalid";
