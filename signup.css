@@ -135,3 +135,7 @@ input.invalid + p {
   height: auto;
   margin: 5px;
 }
+.alt-option-line > a {
+  text-decoration: solid;
+  color: blue;
+}
