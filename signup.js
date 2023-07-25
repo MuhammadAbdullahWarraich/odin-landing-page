@@ -1,4 +1,5 @@
 const inputs = document.querySelectorAll('input');
+const formButton = document.getElementById('form-button');
 
 
 
@@ -24,14 +25,13 @@ function validate(field, regex) {
 inputs.forEach((input) => {
   
   input.addEventListener('keyup', (e) => {
-
+    
     validate(e.target, regex[e.target.attributes.name.value]);
     
   });
 
 });
 
-const formButton = document.getElementById('form-button');
 
 
 formButton.addEventListener('click', (e) => {
