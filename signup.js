@@ -26,6 +26,13 @@ inputs.forEach((input) => {
   
   input.addEventListener('keyup', (e) => {
     
+    if (formButton.classList.contains("valid")) {
+      formButton.classList.remove("valid");
+    }
+    if (formButton.classList.contains("invalid")) {
+      formButton.classList.remove("invalid");
+    }
+
     validate(e.target, regex[e.target.attributes.name.value]);
     
   });
