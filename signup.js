@@ -30,3 +30,6 @@ inputs.forEach((input) => {
   });
 
 });
+
+const formButton = document.getElementById('form-button');
+
