@@ -139,3 +139,6 @@ input.invalid + p {
   text-decoration: solid;
   color: blue;
 }
+.alt-option-line > a:hover {
+  text-shadow: blue 5px 0px 10px;
+}
