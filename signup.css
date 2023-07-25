@@ -120,7 +120,7 @@ input.invalid + p {
   padding: 8px 0px;
   font-size: 2em;
 }
-.login-line {
+.alt-option-line {
   display: flex;
   justify-content: space-between;
 }
